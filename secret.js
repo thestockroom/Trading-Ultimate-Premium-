@@ -1,8 +1,19 @@
-// TRADING ULTIMATE PREMIUM - Secret Config
-
 const SECRET = {
-  teamPhoto: "assets/team-photo.jpg",
-  appName: "TRADING ULTIMATE PREMIUM"
+  name: "TRADING ULTIMATE PREMIUM",
+
+  theme: {
+    primary: "#7C3AED",
+    secondary: "#A855F7",
+    background: "#F8F7FF",
+    text: "#171323"
+  }
 };
 
-window.SECRET = SECRET;
+document.documentElement.style.setProperty("--primary", SECRET.theme.primary);
+document.documentElement.style.setProperty("--secondary", SECRET.theme.secondary);
+document.documentElement.style.setProperty("--background", SECRET.theme.background);
+document.documentElement.style.setProperty("--text", SECRET.theme.text);
+
+document.querySelectorAll("[data-brand-name]").forEach(el => {
+  el.textContent = SECRET.name;
+});
