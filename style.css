@@ -73,3 +73,35 @@ body{perspective:1200px;overflow-x:hidden}.scene3d{height:230px;position:relativ
 
 .premium-exness-link{display:inline-flex;align-items:center;justify-content:center;margin-left:8px;padding:9px 14px;border:1px solid rgba(212,175,55,.65);border-radius:999px;color:#f5d77a;text-decoration:none;background:rgba(12,12,12,.72);box-shadow:0 0 18px rgba(212,175,55,.12)}
 .premium-exness-link:hover{transform:translateY(-1px);box-shadow:0 0 24px rgba(212,175,55,.22)}
+/* Premium Rise-style theme */
+
+body {
+  background: linear-gradient(135deg, #f8faff 0%, #ffffff 50%, #eef2ff 100%) !important;
+  color: #111827 !important;
+}
+
+button,
+.btn,
+.button {
+  background: linear-gradient(135deg, #4f46e5, #6366f1) !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #111827 !important;
+}
+
+a {
+  color: #4f46e5 !important;
+}
+
+.card,
+.glass-card,
+.feature-card {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 15px 40px rgba(79, 70, 229, 0.08) !important;
+}
